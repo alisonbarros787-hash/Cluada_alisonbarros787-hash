@@ -1,0 +1,221 @@
+body{
+  background-color: #ECE7D5;
+  font-family: "JetBrains Mono", monospace;
+  font-size:17px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+   background: #66894F;
+   top: 0;
+   left: 0;
+   width: 100%;
+   margin: 0;
+   z-index: 1000;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 50px;
+  top :9,3rem;
+}
+
+#LogoAngers{
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+h1{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+*p{
+  color: rgb(24, 24, 24);
+  font-size: 10px;
+}
+nav {
+  margin-left: 10px;
+}
+.group {
+ display: flex;
+ line-height: 28px;
+ align-items: center;
+ position: relative;
+ max-width: 190px;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+.input {
+ width: 100%;
+ height: 40px;
+ line-height: 28px;
+ padding: 0 1rem;
+ padding-left: 2.5rem;
+ border: 2px solid transparent;
+ border-radius: 8px;
+ outline: none;
+ background-color: #f3f3f4;
+ color: #0d0c22;
+ transition: .3s ease;
+}
+
+.input::placeholder {
+ color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+ outline: none;
+ border-color: rgba(227, 244, 73, 0.4);
+ background-color: #fff;
+ box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+ position: absolute;
+ left: 1rem;
+ fill: #9e9ea7;
+ width: 1rem;
+ height: 1rem;
+}
+
+.cards {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  justify-content: center;
+  max-width: 75em;
+  grid-gap: 1.6rem;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* tes 2 colonnes de cartes */
+  grid-auto-rows: 12rem;
+  gap: 1.6rem;
+  align-content: start;
+}
+
+.mapiframe iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  border: 0;
+  border-radius: 12px;
+}
+
+
+/* cartes "Fiche d'identité */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.1);
+  background-color: #FFFAEB;
+  border: 3px solid #FFFAEB;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+dl {
+  margin-top: 1px;
+  font-size: 9px;
+  display: initial;
+
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.nav-bar{
+  display: flex;
+  width: 35rem;
+  background:#B2C267;
+  box-sizing: border-box;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.nav-bar ,ul , li {
+  display: flex;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  border-bottom: 2px solid #ff2222 ;
+  padding: 0;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color:  #5A734A;
+  border-radius: 1px;
+}
+
+.nom-latin , .nom-vernaculaire{
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+
+footer{
+  padding-bottom: 2rem;
+  bottom: 0;
+  left: 10px;
+  width: 100%;
+  z-index: 1000;
+  font-family: "M PLUS Code Latin", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 112.5;
+}
+footer , h4 {
+  display: grid;
+  margin-bottom: 1px;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 15px;
+}
+footer , a {
+  color :#0d0c22
+}
+
+#renvoiSource{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+hr{
+  border: none;
+  height: 2px;
+  background-color: #000000;
+  margin: 20px auto;   
+  width: 45rem;          
+  max-width: 800px; 
+}

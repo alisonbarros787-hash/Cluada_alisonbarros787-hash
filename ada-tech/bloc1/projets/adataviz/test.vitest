@@ -1,0 +1,17 @@
+import {afficherArbres , afficherListe, tousLesArbres, creerCarteHTML, filtrerParQuartier} from "src/main.js"
+
+
+//* 
+
+
+describe("afficherArbres", () => {
+  it("retourne true pour un nombre positif", () => {
+    expect(()).toBe()
+  })
+  it("retourne false pour un nombre négatif", () => {
+    expect(()).toBe()
+  })
+  it("retourne true pour zéro", () => {
+    expect(()).toBe()
+  })
+})
