@@ -2,7 +2,7 @@
 
 
 // Fonction qui génère le HTML d'une carte à partir d'un objet arbre
-export const creerCarteHTML = (arbre) => {
+const creerCarteHTML = (arbre) => {
   return `
     <article class="container">
       <h3 class="nom-latin">${arbre.nom_latin}</h3>
